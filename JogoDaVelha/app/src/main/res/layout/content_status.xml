@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:src="@drawable/ryu"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:maxHeight="125dp"
+            android:maxWidth="125dp"
+            android:layout_marginLeft="@dimen/fab_margin"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"/>
+
+        <pl.droidsonroids.gif.GifImageView
+            android:src="@drawable/mbison"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:maxHeight="125dp"
+            android:maxWidth="125dp"
+            android:layout_marginRight="@dimen/fab_margin"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"/>
+
+        <Button
+            android:id="@+id/btnPlayAgain"
+            android:layout_alignParentBottom="true"
+            android:text="@string/play_again"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+

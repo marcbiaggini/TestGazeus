@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Jogo Da Velha</string>
+    <string name="action_settings">Configurações</string>
+    <string name="status_start">Vamos lá, voce é o X. Selecione uma celula</string>
+    <string name="status_yourmove">É a sua vez.</string>
+    <string name="status_computer_thinking">O rival esta pensando a seguinte jogada...</string>
+    <string name="status_draw">A partida acabou empatada. Tenta de novo!</string>
+    <string name="status_lost">Voce perdeu play boy. Tente de novo!.</string>
+    <string name="status_won">Opaaaa voce ganhou campeão!</string>
+    <string name="play_again">Jogar de Novo?</string>
+</resources>
